@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+:root{
+    font-size: 25px;
+}
+
+body{
+    padding-top: 5em;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.container__lables{
+    font-size: 0.7rem;
+    display: flex;
+    gap: 1em;
+}
+
+.container__inputs{
+    display: flex;
+}
+
+.input__times{
+    width: 4em;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container__btns button{
+    font-size: 0.7rem;
+    color: #fff;
+    width: 7em;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.start{
+    background-color: green;
+}
+
+.pause{
+    background-color: rgb(255, 166, 0);
+    display: none;
+}
+
+
+.reset{
+    background-color: red;
+}
